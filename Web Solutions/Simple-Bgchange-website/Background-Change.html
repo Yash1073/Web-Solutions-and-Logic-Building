@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container {
+            display: flex;
+            list-style: none;
+        }
+
+        header::before {
+            background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.5;
+        }
+
+        .items {
+            padding: 7px 10px;
+            margin: 15px 6px;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 3px 120px;
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="container">
+                <li class="items">Home</li>
+                <li class="items">About Us</li>
+                <li class="items">Services</li>
+                <li class="items">Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+    <section class="bottom">
+        <h2 class="come">
+            Welcome to Coding class
+        </h2>
+        <p class="row">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus blanditiis sint quia dolor.
+            Facere
+            voluptates ex id fugiat numquam in nam, dolor doloremque officiis hic perferendis nobis ut eveniet maiores
+            velit aut iste. Dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, dolore.</p>
+    </section>
+</body>
+
+</html>
